@@ -74,49 +74,48 @@ body {
   animation-name: moveInRight;
   animation-duration: 3s;
   animation-timing-function: ease-in;
-
 }
 
 @keyframes moveInLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-100px)
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
 
-    80% {
-        transform: translateX(20px)
-    }
+  80% {
+    transform: translateX(20px);
+  }
 
-    100% {
-        opacity: 1;
-        transform: translateX(0)
-    }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes moveInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(100px)
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
 
-    80% {
-        transform: translateX(-20px)
-    }
+  80% {
+    transform: translateX(-20px);
+  }
 
-    100% {
-        opacity: 1;
-        transform: translateX(0)
-    }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .btn:link,
-.btn:visited{
+.btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 40px;
 }
 
-.btn-white{
+.btn-white {
   background-color: #fff;
   color: #777;
   border-radius: 50px;
