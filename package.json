@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "This project is based on [this](https://www.udemy.com/course/advanced-css-and-sass/) Udemy course and [this](https://github.com/jonasschmedtmann/advanced-css-course) GitHub repo.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss  css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashini-hettiarachchi/Natours-project.git"
+  },
+  "author": "Sashini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sashini-hettiarachchi/Natours-project/issues"
+  },
+  "homepage": "https://github.com/sashini-hettiarachchi/Natours-project#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
